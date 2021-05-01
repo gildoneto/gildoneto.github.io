@@ -1,0 +1,41 @@
+body {
+  font-family: Nunito, sans-serif;
+  color: #1c1c1c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Asap, sans-serif;
+  color: #000000;
+}
+
+/* Navegacao */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6600ff;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 32px;
+  font-family: Yellowtail, serif;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+nav ul li {
+  text-align: center;
+  width: 100%
